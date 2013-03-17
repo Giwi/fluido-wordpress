@@ -48,12 +48,10 @@ window.addEvent('domready', startGallery);
 						<?php the_title(); ?>
 					</h3>
 					<?php the_excerpt(); ?>
-					<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"
-						class="open"></a>
+					<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" class="open"></a>
 					<?php echo  $slide_image_full; ?>
 					<?php echo  $slide_image_thumbnail; ?>
 				</div>
-
 				<?php } ?>
 			</div>
 		</div>
