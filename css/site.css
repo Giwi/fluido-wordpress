@@ -1,0 +1,15 @@
+/* You can override this file with your own styles */
+input,textarea{
+}
+td {
+padding: 5px;
+}
+.widget ul li {
+	display:block;
+}
+
+#colophon #publishDate {
+	vertical-align:text-top; 
+	display:inline-block;
+	width:30%;
+	}
