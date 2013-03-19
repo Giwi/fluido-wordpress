@@ -25,23 +25,6 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width" />
-<style>
-.alignleft {
-	float: left;
-	margin: 10px;
-	0;
-}
-
-.morelink {
-	display: block;
-	clear: both;
-}
-
-.more-span {
-	display: block;
-	clear: both;
-}
-</style>
 <title><?php
 /*
  * Print the <title> tag based on what is being viewed.
@@ -73,6 +56,7 @@ if ( $paged >= 2 || $page >= 2 )
 	href="<?php echo get_template_directory_uri(); ?>/css/apache-maven-fluido-1.3.0.min.css" />
 <link rel="stylesheet"
 	href="<?php echo get_template_directory_uri(); ?>/css/site.css" />
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" />
 <link rel="stylesheet"
 	href="<?php echo get_template_directory_uri(); ?>/css/print.css"
 	media="print" />
@@ -99,7 +83,7 @@ wp_head();
 
 <body>
 	<?php if( get_option( 'github_link' ) != '') { ?>
-	<a href="<?php echo  get_option( 'github_link', '' ); ?>"> <img
+	<a href="<?php echo  get_option( 'github_link', '' ); ?>" target="_blank"> <img
 		style="position: absolute; top: 0; right: 0; border: 0; z-index: 12;"
 		src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"
 		alt="Fork me on GitHub">

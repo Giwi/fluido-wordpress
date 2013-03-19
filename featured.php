@@ -15,6 +15,12 @@ window.addEvent('domready', startGallery);
 
 // window.onDomReady(startGallery);
 </script>
+<div class="drop-shadow lifted">
+<img
+		style="position: absolute; top: 30px; left: -18px; border: 0; z-index: 12;"
+		src="<?php echo get_template_directory_uri(); ?>/images/featured-ribbon-2.png"
+		alt="" />
+	
 <div class="fullbox_excerpt">
 	<div class="fullbox_content">
 		<div class="smooth_gallery">
@@ -56,5 +62,6 @@ window.addEvent('domready', startGallery);
 			</div>
 		</div>
 	</div>
+</div>
 </div>
 <?php }?>
